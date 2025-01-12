@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table2</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>STUDENT FORM</legend>
+        <br>
+        <table>
+            <tr>
+           <td><label for="fName">First name:</label>
+            <input type="text" id="fName" name="Name" placeholder="Enter your First Name" required></td>
+            </tr>
+            <tr><td>
+            <label for="lName">Last name:</label>
+            <input type="text"  id="lName" name="Name" placeholder="Enter your Last Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="bday">DOB:</label>
+                <input type="date"  id="bDay" name="DOB" placeholder="DD/MM/YYYY" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="eMail" >Email:</label>
+                    <input type="email" id="eMail" name="email" placeholder="Enter your Email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobileNumber">Number:</label>
+                    <input type="tel" id="mobileNumber" name="Number" placeholder="Enter your Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gEnder">Gender:</label>
+                    <label for="gEnder1">Male</label>
+                    <input type="radio" id="gEnder1" name="gender" value="Male">
+                    <label for="gEnder2">Female</label>
+                    <input type="radio" id="gEnder2" name="gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="aDdress">Address:</label>
+                   <input textarea id="aDdress" name="address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="cityName">City:</label>
+                  <input type="text" id="cityName" name="city">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pinCode">PinCode:</label>
+                    <input type="number" id="pinCode" name="pin">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sTate">state:</label>
+                    <input type="text" id="sTate" name="state">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="favHobbies">Hobbies:</label>
+                    <label for="favHobbies">dancing</label>
+                    <input type="checkbox" id="favHobbies" name="Hobbies" value="dancing">
+                    <label for="favHobbies">drwaing</label>
+                    <input type="checkbox" id="favHobbies" name="Hobbies" value="drwaing">
+                    <label for="favHobbies">singing</label>
+                    <input type="checkbox" id="favHobbies" name="Hobbies" value="singing">
+                </td>
+            </tr>
+            <table border="">
+                Qualification:
+                <thead>
+                    <th>sr.no</th>
+                    <th>board</th>
+                    <th>precentage</th>
+                    <th>year of passing</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                        <td>
+                            <input type="number">
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+           <br> <tr>
+           <td><label for="couresapplied">Coures Applied For:</label></td>
+           <td><input type="radio" name="bca" id="">BCA</td>
+            <td><input type="radio" name="bcom">B.com</td>
+            <td><input type="radio" name="ba">B.A</td>
+            </tr>
+           <br><br>
+           <input type="button" value="submit">
+           <input type="reset" value="reset">
+        </table>
+        </fieldset>
+    </form>
+</body>
+</html>
